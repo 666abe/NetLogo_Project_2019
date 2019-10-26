@@ -18,13 +18,15 @@ to setup
   [                ;; called begin block
     ask n-of 20 patches in-radius 5
     [
-      set pcolor red
+      set pcolor white
+
+
     ]
   ]                ;; called end block
 
   create-turtles 2
   [
-    set size 2
+    set size 20
     set color yellow
     set time-since-last-found 999
     pen-down
@@ -57,7 +59,6 @@ to search
 
 
 end
-
 @#$#@#$#@
 GRAPHICS-WINDOW
 210
@@ -462,7 +463,7 @@ false
 Polygon -7500403 true true 270 75 225 30 30 225 75 270
 Polygon -7500403 true true 30 75 75 30 270 225 225 270
 @#$#@#$#@
-NetLogo 6.0.3
+NetLogo 6.0.4
 @#$#@#$#@
 @#$#@#$#@
 @#$#@#$#@
